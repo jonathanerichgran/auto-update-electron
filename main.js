@@ -10,6 +10,8 @@ log.transports.file.resolvePath = () => path.join('C:/Users/JonathanErich/Docume
 log.info('Hello, log');
 log.warn('Some problem appears');
 
+log.log("Application version = " + app.getVersion())
+
 let win;
 function createWindow(){
 win = new BrowserWindow({width: 500, heigth: 500})
@@ -24,20 +26,34 @@ app.on('ready',()=>{
     autoUpdater.checkForUpdatesAndNotify()
 })
 
+autoUpdater.on("checking-for-update",()=>{
+    log.info("checking-for-update...")
+})
+
 autoUpdater.on("update-available",()=>{
     log.info("update-available")
 })
 
-autoUpdater.on("checking-for-update",()=>{
-    log.info("checking-for-update")
+autoUpdater.on("update-not-available",()=>{
+    log.info("update not available")
 })
+
+autoUpdater.on("error",(error)=>{
+    log.info("Error in auto-updater. " + err)
+})
+
+autoUpdater.on("download-progress",(progressTrack)=>{
+    log.info("\n\ndownload-progress")
+    log.info(progressTrack)
+})
+
 
 autoUpdater.on("download-progress",()=>{
     log.info("download-progress")
 })
 
 autoUpdater.on("update-downloaded",()=>{
-    log.info("update-downloaded")
+    log.info("Update downloaded")
 })
 
 
