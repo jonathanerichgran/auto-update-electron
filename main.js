@@ -4,6 +4,7 @@ const {autoUpdater} = require('electron-updater')//biblioteca para atualização
 const log = require('electron-log'); // npm de logs para a att automática
 
 log.transports.file.resolvePath = () => path.join('C:/Users/JonathanErich/Documents/GitHub/auto-update-electron', '/logs/main.log');
+//colocar um caminho relativo aqui depois para gerar o logo para qualquer usuário || ou talvez não já que é opção de desenvolvedor
 
 
 
@@ -21,10 +22,7 @@ console.log(path.join(__dirname +  '/index.html'))
 win.loadFile(path.join(__dirname +  '/index.html'))
 }
 
-app.on('ready',()=>{
-    createWindow()
-    autoUpdater.checkForUpdatesAndNotify()
-})
+
 
 autoUpdater.on("checking-for-update",()=>{
     log.info("checking-for-update...")
@@ -34,8 +32,8 @@ autoUpdater.on("update-available",()=>{
     log.info("update-available")
 })
 
-autoUpdater.on("update-not-available",()=>{
-    log.info("update not available")
+autoUpdater.on("update-not-available",(info)=>{
+    log.info("update-not-available")
 })
 
 autoUpdater.on("error",(error)=>{
@@ -47,13 +45,14 @@ autoUpdater.on("download-progress",(progressTrack)=>{
     log.info(progressTrack)
 })
 
-
-autoUpdater.on("download-progress",()=>{
-    log.info("download-progress")
-})
-
 autoUpdater.on("update-downloaded",()=>{
     log.info("Update downloaded")
+})
+
+
+app.on('ready',()=>{
+    createWindow()
+    autoUpdater.checkForUpdatesAndNotify()
 })
 
 

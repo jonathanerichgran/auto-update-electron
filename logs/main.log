@@ -24,3 +24,208 @@
 [2022-12-09 17:29:06.317] [info]  Hello, log
 [2022-12-09 17:29:06.329] [warn]  Some problem appears
 [2022-12-09 17:29:06.333] [info]  Application version = 1.0.0
+[2022-12-13 10:36:28.281] [info]  Hello, log
+[2022-12-13 10:36:28.294] [warn]  Some problem appears
+[2022-12-13 10:36:28.299] [info]  Application version = 1.0.0
+[2022-12-14 13:27:18.481] [info]  Hello, log
+[2022-12-14 13:27:18.495] [warn]  Some problem appears
+[2022-12-14 13:27:18.500] [info]  Application version = 1.0.0
+[2022-12-15 12:07:10.320] [info]  Hello, log
+[2022-12-15 12:07:10.334] [warn]  Some problem appears
+[2022-12-15 12:07:10.338] [info]  Application version = 2.0.1
+[2022-12-15 12:07:10.528] [info]  checking-for-update...
+[2022-12-15 12:18:05.108] [info]  Hello, log
+[2022-12-15 12:18:05.121] [warn]  Some problem appears
+[2022-12-15 12:18:05.125] [info]  Application version = 2.0.1
+[2022-12-15 12:18:05.336] [info]  checking-for-update...
+[2022-12-15 12:18:25.036] [info]  Hello, log
+[2022-12-15 12:18:25.049] [warn]  Some problem appears
+[2022-12-15 12:18:25.053] [info]  Application version = 2.0.1
+[2022-12-15 12:18:25.257] [info]  checking-for-update...
+[2022-12-15 12:21:10.542] [info]  Hello, log
+[2022-12-15 12:21:10.556] [warn]  Some problem appears
+[2022-12-15 12:21:10.560] [info]  Application version = 2.0.1
+[2022-12-15 12:21:10.718] [info]  checking-for-update...
+[2022-12-15 12:32:34.744] [info]  Hello, log
+[2022-12-15 12:32:34.757] [warn]  Some problem appears
+[2022-12-15 12:32:34.761] [info]  Application version = 2.0.1
+[2022-12-15 12:32:34.971] [info]  checking-for-update...
+[2022-12-15 12:33:00.783] [info]  Hello, log
+[2022-12-15 12:33:00.797] [warn]  Some problem appears
+[2022-12-15 12:33:00.803] [info]  Application version = 2.0.2
+[2022-12-15 12:33:00.967] [info]  checking-for-update...
+[2022-12-15 12:34:09.023] [info]  Hello, log
+[2022-12-15 12:34:09.036] [warn]  Some problem appears
+[2022-12-15 12:34:09.040] [info]  Application version = 2.0.2
+[2022-12-15 12:34:24.428] [info]  Hello, log
+[2022-12-15 12:34:24.443] [warn]  Some problem appears
+[2022-12-15 12:34:24.448] [info]  Application version = 2.0.2
+[2022-12-15 12:34:44.146] [info]  Hello, log
+[2022-12-15 12:34:44.162] [warn]  Some problem appears
+[2022-12-15 12:34:44.167] [info]  Application version = 2.0.2
+[2022-12-15 12:34:44.348] [info]  checking-for-update...
+[2022-12-15 20:00:46.247] [info]  Hello, log
+[2022-12-15 20:00:46.264] [warn]  Some problem appears
+[2022-12-15 20:00:46.270] [info]  Application version = 2.0.2
+[2022-12-15 20:00:52.030] [info]  Hello, log
+[2022-12-15 20:00:52.042] [warn]  Some problem appears
+[2022-12-15 20:00:52.047] [info]  Application version = 2.0.2
+[2022-12-15 20:00:52.227] [info]  checking-for-update...
+[2022-12-20 11:17:24.034] [info]  Hello, log
+[2022-12-20 11:17:24.046] [warn]  Some problem appears
+[2022-12-20 11:17:24.050] [info]  Application version = 2.0.2
+[2022-12-20 12:04:56.759] [info]  Hello, log
+[2022-12-20 12:04:56.772] [warn]  Some problem appears
+[2022-12-20 12:04:56.778] [info]  Application version = 2.0.2
+[2022-12-20 12:39:27.809] [info]  Hello, log
+[2022-12-20 12:39:27.821] [warn]  Some problem appears
+[2022-12-20 12:39:27.827] [info]  Application version = 2.0.2
+[2022-12-20 16:54:07.706] [info]  Hello, log
+[2022-12-20 16:54:07.724] [warn]  Some problem appears
+[2022-12-20 16:54:07.728] [info]  Application version = 2.0.2
+[2022-12-20 16:54:07.885] [info]  checking-for-update...
+[2022-12-20 16:57:55.516] [info]  Hello, log
+[2022-12-20 16:57:55.536] [warn]  Some problem appears
+[2022-12-20 16:57:55.550] [info]  Application version = 2.0.2
+[2022-12-20 16:57:55.760] [info]  checking-for-update...
+[2022-12-20 16:57:57.616] [info]  update-available
+[2022-12-20 16:57:59.400] [info]  
+
+download-progress
+[2022-12-20 16:57:59.403] [info]  {
+  total: 69475163,
+  delta: 785787,
+  transferred: 785787,
+  percent: 1.1310329707322888,
+  bytesPerSecond: 763641
+}
+[2022-12-20 16:58:00.403] [info]  
+
+download-progress
+[2022-12-20 16:58:00.406] [info]  {
+  total: 69475163,
+  delta: 5292650,
+  transferred: 6078437,
+  percent: 8.749079149335714,
+  bytesPerSecond: 2991357
+}
+[2022-12-20 16:58:01.404] [info]  
+
+download-progress
+[2022-12-20 16:58:01.408] [info]  {
+  total: 69475163,
+  delta: 5931035,
+  transferred: 12009472,
+  percent: 17.285993269278116,
+  bytesPerSecond: 3959602
+}
+[2022-12-20 16:58:02.407] [info]  
+
+download-progress
+[2022-12-20 16:58:02.410] [info]  {
+  total: 69475163,
+  delta: 6176759,
+  transferred: 18186231,
+  percent: 26.176593497160994,
+  bytesPerSecond: 4506004
+}
+[2022-12-20 16:58:03.409] [info]  
+
+download-progress
+[2022-12-20 16:58:03.412] [info]  {
+  total: 69475163,
+  delta: 6160384,
+  transferred: 24346615,
+  percent: 35.043624150978964,
+  bytesPerSecond: 4832595
+}
+[2022-12-20 16:58:04.409] [info]  
+
+download-progress
+[2022-12-20 16:58:04.411] [info]  {
+  total: 69475163,
+  delta: 6143991,
+  transferred: 30490606,
+  percent: 43.8870593221926,
+  bytesPerSecond: 5049786
+}
+[2022-12-20 16:58:05.413] [info]  
+
+download-progress
+[2022-12-20 16:58:05.416] [info]  {
+  total: 69475163,
+  delta: 6291456,
+  transferred: 36782062,
+  percent: 52.94275020268754,
+  bytesPerSecond: 5223241
+}
+[2022-12-20 16:58:06.415] [info]  
+
+download-progress
+[2022-12-20 16:58:06.418] [info]  {
+  total: 69475163,
+  delta: 6357010,
+  transferred: 43139072,
+  percent: 62.092797105060406,
+  bytesPerSecond: 5362888
+}
+[2022-12-20 16:58:07.416] [info]  
+
+download-progress
+[2022-12-20 16:58:07.419] [info]  {
+  total: 69475163,
+  delta: 6209536,
+  transferred: 49348608,
+  percent: 71.03057534388225,
+  bytesPerSecond: 5455899
+}
+[2022-12-20 16:58:08.420] [info]  
+
+download-progress
+[2022-12-20 16:58:08.423] [info]  {
+  total: 69475163,
+  delta: 6291438,
+  transferred: 55640046,
+  percent: 80.08624031583777,
+  bytesPerSecond: 5536874
+}
+[2022-12-20 16:58:09.421] [info]  
+
+download-progress
+[2022-12-20 16:58:09.424] [info]  {
+  total: 69475163,
+  delta: 6389778,
+  transferred: 62029824,
+  percent: 89.28345227487988,
+  bytesPerSecond: 5613559
+}
+[2022-12-20 16:58:10.423] [info]  
+
+download-progress
+[2022-12-20 16:58:10.426] [info]  {
+  total: 69475163,
+  delta: 6438912,
+  transferred: 68468736,
+  percent: 98.55138591038643,
+  bytesPerSecond: 5681110
+}
+[2022-12-20 16:58:10.599] [info]  
+
+download-progress
+[2022-12-20 16:58:10.601] [info]  {
+  total: 69475163,
+  delta: 1006427,
+  transferred: 69475163,
+  percent: 100,
+  bytesPerSecond: 5681646
+}
+[2022-12-20 16:58:10.610] [info]  Update downloaded
+[2022-12-20 17:01:40.467] [info]  Hello, log
+[2022-12-20 17:01:40.479] [warn]  Some problem appears
+[2022-12-20 17:01:40.483] [info]  Application version = 2.0.2
+[2022-12-20 17:01:40.636] [info]  checking-for-update...
+[2022-12-20 17:01:51.208] [info]  Hello, log
+[2022-12-20 17:01:51.220] [warn]  Some problem appears
+[2022-12-20 17:01:51.226] [info]  Application version = 2.0.3
+[2022-12-20 17:01:51.386] [info]  checking-for-update...
+[2022-12-20 17:01:52.302] [info]  update-not-available
